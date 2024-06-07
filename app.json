@@ -25,7 +25,7 @@
       }
     }
   ],
-  "repository": "https://github.com/kxunal1834/StringSessionBot",
+  "repository": "https://github.com/abhaygithubweb/StringSessionBot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
