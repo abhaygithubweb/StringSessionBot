@@ -1,31 +1,32 @@
+
 {
-  "name": "Pyrogram String Session Generator",
+  "name": "Japanese-X-String Session Bot",
   "description": "Telegram bot to generate pyrogram string session",
-  "logo": "https://telegra.ph/file/7ec22c82f580a334dd13e.jpg",
+  "logo": "https://graph.org/file/83978974fe5be2da118d7.jpg",
   "keywords": [
     "telegram",
     "bot",
     "python",
     "pyrogram"
   ],
-  "buildpacks": [{
+    "buildpacks": [{
     "url": "heroku/python"
   }],
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "basic"
     }
   },
   "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "15"
+      {
+         "options": {
+            "version": "15"
+         },
+         "plan": "heroku-postgresql"
       }
-    }
-  ],
-  "repository": "https://github.com/abhaygithubweb/StringSessionBot",
+   ],
+  "repository": "https://github.com/Team-Japanese/Japanese-X-StringSession",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -35,17 +36,17 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": "YOUR_API_ID"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": "YOUR_API_HASH"
+      "value": ""
     },
     "BOT_TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather",
       "required": true,
-      "value": "YOUR_BOT_TOKEN"
+      "value": ""
     },
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
@@ -53,4 +54,4 @@
       "value": ""
     }
   }
-}
+} 
