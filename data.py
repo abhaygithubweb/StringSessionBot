@@ -13,12 +13,12 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/botaaja")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/durov")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/botaaja")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/durov")],
     ]
 
     START = """
@@ -28,7 +28,7 @@ I'ᴀᴍ {}
 
 You Can Use Me To Generate Session String Pyrogram And Telethon. Use The Button Below To Find Out More!
 
-By @Roll_no_61
+Powered by [Pavel Durov](https://t.me/icon)
     """
 
     HELP = """
@@ -47,11 +47,11 @@ By @Roll_no_61
 
 Telegram Bot to generate Pyrogram and Telethon string session by @Roll_no_61
 
-Source Code : [Click Here](https://t.me/botaaja)
+Powered by : [Click Here](Du Rove's Channel)
 
 Framework : [Pyrogram](https://docs.pyrogram.org)
 
 Language : [Python](https://www.python.org)
 
-Developer : @Roll_no_61
+Developer : Powered by [Pavel Durov](https://t.me/icon)
     """
