@@ -45,9 +45,9 @@ Powered by [Pavel Durov](https://t.me/icon)
     ABOUT = """
 **About This Bot** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @Roll_no_61
+Telegram Bot to generate Pyrogram and Telethon string session by [Pavel Durov](https://t.me/icon)
 
-Powered by : [Click Here](Du Rove's Channel)
+Powered by : [Du Rove's Channel](https://t.me/durov)
 
 Framework : [Pyrogram](https://docs.pyrogram.org)
 
